@@ -1,0 +1,836 @@
+{
+    "id": "57e002d62-a0b4-014a-b821-6443440f849",
+    "title": "PhilPEN Risk Assessment Form",
+    "description": "For Adults 20 years old and above",
+    "tags": [
+        "preassessment",
+        "consultation"
+    ],
+    "fields": [
+        {
+            "id": "665d106d8-1b24-fb98-8e95-4132dd8179b",
+            "name": "part-1",
+            "type": "markdown",
+            "template": "**PART I. ASSESS FOR RED FLAGS**"
+        },
+        {
+            "id": "347694879-5fe4-f25b-3d0c-e4dc06daca8",
+            "name": "desc",
+            "type": "markdown",
+            "template": "If YES to ANY, REFER IMMEDIATELY to a Physician for further management and/or referral to the next level of care.\n\nIf ALL answers are NO, proceed to Part II."
+        },
+        {
+            "id": "f67404a89-3764-a299-ce4e-0e18c4df54b",
+            "name": "red-flags",
+            "type": "field-group",
+            "fields": [
+                {
+                    "id": "ae0c0d0cb-02d4-335a-447f-d6b74768990",
+                    "name": "red-flags-col1",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Chest Pain",
+                            "name": "0"
+                        },
+                        {
+                            "label": "Difficulty of Breathing",
+                            "name": "1"
+                        },
+                        {
+                            "label": "Loss of Consciousness",
+                            "name": "2"
+                        },
+                        {
+                            "label": "Slurred Speech",
+                            "name": "3"
+                        },
+                        {
+                            "label": "Facial Assymetry",
+                            "name": "4"
+                        },
+                        {
+                            "label": "Weakness/Numbness on arm of left on one side of the body",
+                            "name": "5"
+                        }
+                    ]
+                },
+                {
+                    "id": "a4525fc73-f724-b298-6ec5-6e5b97d93ee",
+                    "name": "red-flags-col2",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Disoriented as to time, place and person",
+                            "name": "6"
+                        },
+                        {
+                            "label": "Chest Retractions",
+                            "name": "7"
+                        },
+                        {
+                            "label": "Seizure or Convulsion",
+                            "name": "8"
+                        },
+                        {
+                            "label": "Act of self-harm or suicide",
+                            "name": "9"
+                        },
+                        {
+                            "label": "Agitated and/or aggressive behavior",
+                            "name": "10"
+                        },
+                        {
+                            "label": "Eye injury/Foreign Body on the eye",
+                            "name": "11"
+                        },
+                        {
+                            "label": "Severe injuries",
+                            "name": "12"
+                        }
+                    ]
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "39a75a86e-7564-4f68-80db-f95be46a20c",
+            "name": "part-2",
+            "type": "markdown",
+            "template": "**PART II. PAST MEDICAL HISTORY**"
+        },
+        {
+            "id": "329339504-3b64-4ae9-c668-4a838383c4d",
+            "name": "medical-history",
+            "type": "field-group",
+            "fields": [
+                {
+                    "id": "9a7150b64-1ae4-e49a-9cbb-a8923d81a67",
+                    "name": "medical-history-col1",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Hypertension",
+                            "name": "0"
+                        },
+                        {
+                            "label": "Heart Diseases",
+                            "name": "1"
+                        },
+                        {
+                            "label": "Diabetes",
+                            "name": "2"
+                        },
+                        {
+                            "label": "Cancer",
+                            "name": "3"
+                        },
+                        {
+                            "label": "COPD",
+                            "name": "4"
+                        },
+                        {
+                            "label": "Asthma",
+                            "name": "5"
+                        }
+                    ]
+                },
+                {
+                    "id": "7e08d30a2-2f84-b8d9-f0e4-f6f31961317",
+                    "name": "medical-history-col2",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Allergies",
+                            "name": "6"
+                        },
+                        {
+                            "label": "Mental, Neurological, and Substance-Abuse Disorders",
+                            "name": "7"
+                        },
+                        {
+                            "label": "Vision Problems",
+                            "name": "8"
+                        },
+                        {
+                            "label": "Previous Surgical History",
+                            "name": "9"
+                        },
+                        {
+                            "label": "Thyroid Disorders",
+                            "name": "10"
+                        },
+                        {
+                            "label": "Kidney Disorders",
+                            "name": "11"
+                        }
+                    ]
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "75d31cd64-76b4-59fb-5da8-4bbbd477c6d",
+            "name": "part-3",
+            "type": "markdown",
+            "template": "**PART III. FAMILY HISTORY**"
+        },
+        {
+            "id": "50119363a-fea4-26f8-90b2-a67e2f4630f",
+            "name": "family-history",
+            "type": "field-group",
+            "fields": [
+                {
+                    "id": "6a7de4506-86b4-c9d8-3c52-2a0f806429c",
+                    "name": "family-history-col1",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Hypertension",
+                            "name": "0"
+                        },
+                        {
+                            "label": "Stroke",
+                            "name": "1"
+                        },
+                        {
+                            "label": "Heart Disease (changed from \"Cardiovascular\")",
+                            "name": "2"
+                        },
+                        {
+                            "label": "Diabetes Mellitus",
+                            "name": "3"
+                        },
+                        {
+                            "label": "Asthma",
+                            "name": "4"
+                        },
+                        {
+                            "label": "Cancer",
+                            "name": "5"
+                        }
+                    ]
+                },
+                {
+                    "id": "770ed4747-4304-8308-7b04-d7020f6237b",
+                    "name": "family-history-col2",
+                    "type": "radio-grid",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "label": "Kidney Disease",
+                            "name": "6"
+                        },
+                        {
+                            "label": "1st degree relative with premature coronary disease or vascular disease (includes \"Heart Attack\")",
+                            "name": "7"
+                        },
+                        {
+                            "label": "Family members having TB in the last 5 years",
+                            "name": "8"
+                        },
+                        {
+                            "label": "Mental, Neurological and Substance Abuse Disorder",
+                            "name": "9"
+                        },
+                        {
+                            "label": "COPD",
+                            "name": "10"
+                        }
+                    ]
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "454187b46-e184-ed8b-087a-06e54d7f113",
+            "name": "part-4",
+            "type": "markdown",
+            "template": "**PART IV. NCD RISK FACTORS**"
+        },
+        {
+            "id": "fcfb4846c-3d54-b03b-26a9-30c1b4a5c7e",
+            "name": "tobacco-use",
+            "type": "field-group",
+            "title": "Tobacco Use",
+            "fields": [
+                {
+                    "id": "2b41427f6-f9a4-2f08-3790-88d48bb3f93",
+                    "type": "markdown",
+                    "template": "                If YES to Q2-Q4, follow the tobacco cessation protocol (5As) and use the Form 1.                 Tobacco Cessation Referral Protocol, if needed."
+                },
+                {
+                    "id": "9433c8b30-8d54-e24b-b2b9-255a3d4b45f",
+                    "type": "checkbox-list",
+                    "options": [
+                        {
+                            "label": "Q1 Never Used (proceed to Q2)",
+                            "value": "q1"
+                        },
+                        {
+                            "label": "Q2 Exposure to secondhand smoke",
+                            "value": "q2"
+                        },
+                        {
+                            "label": "Q3 Former tobacco user (stopped smoking >1 year)",
+                            "value": "q3"
+                        },
+                        {
+                            "label": "Q4 Current tobacco user (currently smoking or stopped smoking < 1 year)",
+                            "value": "q4"
+                        }
+                    ],
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "id": "3028173db-2d14-17d9-37c3-c403b05e33b",
+            "name": "part4-title-1",
+            "type": "markdown",
+            "template": "**Alcohol Intake**"
+        },
+        {
+            "id": "ab66021f0-36a4-7e99-6c2e-74fef859310",
+            "name": "alcohol-intake-1",
+            "type": "field-group",
+            "title": "Q1 Have you ever consumed alcohol?",
+            "fields": [
+                {
+                    "id": "b0cc5dde0-6d64-76c9-2884-4bf4ef190bf",
+                    "name": "alcohol-opts",
+                    "type": "dropdown",
+                    "columnSpan": 2,
+                    "options": [
+                        {
+                            "label": "Never consumed",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes, drinks alcohol",
+                            "value": "1"
+                        }
+                    ],
+                    "label": ""
+                },
+                {
+                    "id": "876a78a72-4e94-f3c9-ea01-04faa1702b9",
+                    "name": "inst-1",
+                    "type": "markdown",
+                    "columnSpan": 3,
+                    "template": "If YES, proceed using AUDIT SCREENING TOOL (Form 2) to         alcohol consumption and alcohol problems"
+                },
+                {
+                    "id": "a07d48943-39e4-520a-613f-bafe3d1b1a4",
+                    "name": "inst-2",
+                    "type": "markdown",
+                    "columnSpan": 3,
+                    "template": "If NO, congratulate the patient.         The patient is at a lower risk of drinking alcohol"
+                }
+            ],
+            "columns": 8
+        },
+        {
+            "id": "3b9701ad0-cd24-3899-8b46-89191a532b4",
+            "name": "alcohol-intake-2",
+            "type": "field-group",
+            "title": "Q2 Do you drink 5 or more standard drinks for men, and 4 or more for women (in one sitting/occassion) in the past year?",
+            "fields": [
+                {
+                    "id": "d91510512-5ec4-b07b-cfa5-c15b21d2226",
+                    "name": "alcohol-opts",
+                    "type": "dropdown",
+                    "columnSpan": 1,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "label": ""
+                },
+                {
+                    "id": "732485f54-97a4-00c9-d724-184af852abc",
+                    "name": "inst",
+                    "type": "markdown",
+                    "columnSpan": 3,
+                    "template": "If YES, provide brief advice and/or extended brief advice. The patient is on the higher risk category level of drinking or in harmful use of alcohol."
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "8b8ad74f0-2af4-fa29-a9f7-3dcb649a207",
+            "name": "part4-title-2",
+            "type": "markdown",
+            "template": "**Physical Activity**"
+        },
+        {
+            "id": "108a13581-ee94-26ba-4c80-5781c347334",
+            "name": "physical-activity",
+            "type": "field-group",
+            "title": "Does the patient do at least 2.5 hours a week of moderate-intensity physical activity?",
+            "fields": [
+                {
+                    "id": "a2ac54522-62a4-1019-8694-cbcea6c5f84",
+                    "name": "physical-opts",
+                    "type": "dropdown",
+                    "columnSpan": 1,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "label": ""
+                },
+                {
+                    "id": "7623f2e59-13b4-bbc8-8939-19ad2c224fb",
+                    "name": "inst",
+                    "type": "markdown",
+                    "columnSpan": 3,
+                    "template": "If NO or patient does not reach the recommended hours/week off moderate-intensity physical activity, give lifestyle modification advice following Annex 1. Healthy Lifestyle Module."
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "75d7d2f0a-f6a4-d20b-e8f3-fa9d16d82bc",
+            "name": "part4-title-3",
+            "type": "markdown",
+            "template": "**Nutrition and Dietary Assessment**"
+        },
+        {
+            "id": "5ddac254f-a724-411a-c719-385de382f87",
+            "name": "nutrition",
+            "type": "field-group",
+            "title": "Does the patient eat high fat, high salt food (processed/fast food such as instant noodles, burgers, fries, dried fish), \"ihaw-ihaw/fried (e.g. isaw, barbecue, liver, chicken skin) and high sugar food and drinks (e.g. chocolates, cakes, pastries, softdrinks) weekly?",
+            "fields": [
+                {
+                    "id": "58c0700d8-d6b4-082b-4d44-6397bd643ff",
+                    "name": "nutri-opts",
+                    "type": "dropdown",
+                    "columnSpan": 1,
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "label": ""
+                },
+                {
+                    "id": "b27e8a378-75c4-dbcb-3864-ecfcdcc11a4",
+                    "name": "inst",
+                    "type": "markdown",
+                    "columnSpan": 3,
+                    "template": "If YES to the question, give lifestyle modification advice following Annex 2. Nutrition Practice Guidelines for Health Professionals in the Primary Care Screening"
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "4629b09fe-92d4-8188-47b4-bbe0f3db24e",
+            "name": "other-details-1",
+            "type": "field-group",
+            "fields": [
+                {
+                    "id": "283379ddb-e5d4-ec59-80aa-0ebe6b39e96",
+                    "name": "weight",
+                    "type": "number",
+                    "label": "Weight (kg)"
+                },
+                {
+                    "id": "21731de9a-ee64-ff3a-e94d-69ee432b361",
+                    "name": "height",
+                    "type": "number",
+                    "label": "Height (cm)"
+                }
+            ],
+            "columns": 2
+        },
+        {
+            "id": "ab3bf01fd-0a24-af98-dce8-5dc86c9a253",
+            "name": "other-details-2",
+            "type": "field-group",
+            "fields": [
+                {
+                    "id": "c3967856b-4394-c3db-6c3a-065af035c45",
+                    "name": "bmi",
+                    "type": "number",
+                    "columnSpan": 3,
+                    "label": "Body Mass Index (wt./ht.^2 = kg/cm^2 * 10000)"
+                },
+                {
+                    "id": "3d7b1d489-c8c4-256a-b03f-36f4480d881",
+                    "name": "waist-circumference",
+                    "type": "number",
+                    "columnSpan": 3,
+                    "label": "Waist Circumference (cm): F < 80cm M < 90cm"
+                },
+                {
+                    "id": "4f06dfb5f-7ca4-a5da-6060-ec106a27136",
+                    "name": "blood-pressure",
+                    "type": "number",
+                    "columnSpan": 2,
+                    "label": "Blood Pressure (mmHg)"
+                }
+            ],
+            "columns": 8
+        },
+        {
+            "id": "4cafec0e0-3fb4-2688-2159-72fb45ee2f3",
+            "name": "part-5",
+            "type": "markdown",
+            "template": "PART V. RISK SCREENING"
+        },
+        {
+            "id": "425fc2129-86f4-0c89-b2b5-94a6fda4b01",
+            "name": "title",
+            "type": "markdown",
+            "template": "**Hypertension/Diabetes/Hyperchloresterolemia/Renal Diseases**"
+        },
+        {
+            "id": "ebec7485b-5f84-f379-6e4f-33b8765e77e",
+            "name": "blood-sugar",
+            "type": "field-group",
+            "title": "Blood Sugar (NA if unapplicable)",
+            "fields": [
+                {
+                    "id": "fc0e2c783-43b4-0b4b-83fa-3ad6c9b8c86",
+                    "name": "clinical-symptoms",
+                    "type": "checkbox-list",
+                    "options": [
+                        {
+                            "label": "Polyphagia",
+                            "value": "polyphagia"
+                        },
+                        {
+                            "label": "Polydipsia",
+                            "value": "polydipsia"
+                        },
+                        {
+                            "label": "Polyuria",
+                            "value": "polyuria"
+                        }
+                    ],
+                    "label": "Present DM Clinical Symptoms"
+                },
+                {
+                    "id": "6a17abb29-c5c4-5d39-a715-b5f2a56b899",
+                    "name": "fbs",
+                    "type": "text",
+                    "label": "FBS Result"
+                },
+                {
+                    "id": "8b93485b8-d064-04fb-5eef-2dd46222b93",
+                    "name": "rbs",
+                    "type": "text",
+                    "label": "RBS Result"
+                },
+                {
+                    "id": "3743d15b9-4554-462a-7113-45081c8ce97",
+                    "name": "date",
+                    "type": "date",
+                    "label": "Date Taken"
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "54d72dd95-c5c4-5088-e05a-96aff363977",
+            "name": "lipid-profile",
+            "type": "field-group",
+            "title": "Lipid Profile",
+            "fields": [
+                {
+                    "id": "b31c18d8c-7614-3639-f6ad-f1774537766",
+                    "name": "cholesterol",
+                    "type": "number",
+                    "label": "Cholesterol"
+                },
+                {
+                    "id": "3f78c408d-28a4-a81b-1840-50bd8c819cd",
+                    "name": "hdl",
+                    "type": "number",
+                    "label": "HDL"
+                },
+                {
+                    "id": "ddf1257ce-da04-7d0b-3532-59068b56581",
+                    "name": "ldl",
+                    "type": "number",
+                    "label": "LDL"
+                },
+                {
+                    "id": "4cd1b0d0a-6e54-0a28-ee27-ec8fa682e64",
+                    "name": "vldl",
+                    "type": "number",
+                    "label": "VLDL"
+                },
+                {
+                    "id": "8fdd189e0-5334-068a-befb-b21d9e9a6c9",
+                    "name": "triglyceride",
+                    "type": "number",
+                    "label": "Tryglyceride"
+                },
+                {
+                    "id": "eed04d270-ec04-6228-96f4-ddecca54654",
+                    "name": "date",
+                    "type": "date",
+                    "label": "Date Taken"
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "07d86ada5-0794-962a-1c60-c2d32a07db0",
+            "name": "urinalysis",
+            "type": "field-group",
+            "title": "Urinalysis/Urine Dipstick Test",
+            "fields": [
+                {
+                    "id": "34fea1675-6b74-6218-a36b-4fef12552ae",
+                    "name": "protein",
+                    "type": "number",
+                    "label": "Protein"
+                },
+                {
+                    "id": "68e7a57c1-6c44-3039-2947-bd8da24a367",
+                    "name": "date",
+                    "type": "date",
+                    "label": "Date Taken (Protein)"
+                },
+                {
+                    "id": "50bb63c28-ddb4-3fb9-885a-ab7a4b3918a",
+                    "name": "ketones",
+                    "type": "number",
+                    "label": "Ketones"
+                },
+                {
+                    "id": "927692ec6-0774-68da-c993-8dc11a76fdb",
+                    "name": "date",
+                    "type": "date",
+                    "label": "Date Taken (Ketones)"
+                }
+            ],
+            "columns": 4
+        },
+        {
+            "id": "663638684-c0d4-631a-0575-a700c4c9c49",
+            "name": "respiratory",
+            "type": "field-group",
+            "title": "Chronic Respiratory Diseases (Asthma and COPD)",
+            "fields": [
+                {
+                    "id": "f93f3f7ec-5284-42ea-f07a-5f066f7795d",
+                    "name": "respiratory-diseases",
+                    "type": "checkbox-list",
+                    "options": [
+                        {
+                            "label": "Breathlessness (or a \"need for air\")",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Chronic cough",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Sputum (mucous) production",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Chest tightness*",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Wheezing*",
+                            "value": "4"
+                        }
+                    ],
+                    "label": ""
+                },
+                {
+                    "id": "63b5766f7-edb4-b278-03d4-9fdd076a292",
+                    "name": "notice",
+                    "type": "markdown",
+                    "columnSpan": 4,
+                    "template": "Note: *These symptoms may be episodic or seasonal, vary over time and intensity and are worse during night and early morning"
+                },
+                {
+                    "id": "611d07a7a-6d14-e32a-2c92-4777c3e3dad",
+                    "name": "inst",
+                    "type": "markdown",
+                    "template": "If YES to any of the symptoms, obtain peak expiratory flow rate (PEFR). Give inhaled salbutamol, then repeat after 15 mintues"
+                },
+                {
+                    "id": "8eeb3f677-5e24-71da-a331-7ccd25f593b",
+                    "name": "pefr",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": ">20% change from baseline (consider Probably Asthma)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "<20% change from baseline (consider Probably COPD)",
+                            "value": "1"
+                        }
+                    ],
+                    "label": "Result:"
+                }
+            ]
+        },
+        {
+            "id": "4bf496860-1bd4-16cb-4651-c697549899b",
+            "name": "part-6",
+            "type": "markdown",
+            "template": "**PART VI. MANAGEMENT**"
+        },
+        {
+            "id": "a0dad978c-31b4-0f7b-4d38-1d47e7dd940",
+            "name": "lifestyle-modification",
+            "type": "radio",
+            "options": [
+                {
+                    "label": "Yes",
+                    "value": "1"
+                },
+                {
+                    "label": "No",
+                    "value": "0"
+                }
+            ],
+            "label": "Lifestyle Modification"
+        },
+        {
+            "id": "b4e37f475-64c4-b94a-fd17-563040faa0a",
+            "name": "medications",
+            "type": "field-group",
+            "title": "Medications",
+            "fields": [
+                {
+                    "id": "29e833aa5-3364-ec78-b5ae-b3fe2293392",
+                    "name": "anti-hypertensives",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "label": "Anti-Hypertensives"
+                },
+                {
+                    "id": "55f4bf8c4-ca04-1169-6eba-d7fd50e4566",
+                    "name": "oha",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "label": "No",
+                            "value": "0"
+                        }
+                    ],
+                    "label": "Oral Hypoglycemic Agents/Insulin"
+                }
+            ],
+            "columns": 2
+        },
+        {
+            "id": "8265aff63-7d74-beca-711e-84b51af7ee0",
+            "name": "follow-up-date",
+            "type": "date",
+            "label": "Date of Follow-up"
+        },
+        {
+            "id": "d55df4b2d-1244-fb3b-b5ea-f55ec5343b4",
+            "name": "remarks",
+            "type": "textarea",
+            "label": "Remarks"
+        }
+    ]
+}
